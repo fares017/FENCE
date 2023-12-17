@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
-This project is a reproduction of the paper Feasible Evasion Attacks on Neural Networks in Constrained Environments, precisely the experiment Malicious Network Traffic Classification.
+This project serves as a reproduction of the paper titled "Feasible Evasion Attacks on Neural Networks in Constrained Environments," specifically focusing on the experiment related to Malicious Network Traffic Classification.
 
 ## Table of Contents
 
@@ -12,22 +12,19 @@ This project is a reproduction of the paper Feasible Evasion Attacks on Neural N
 
 
 ## Attack folder
-The attack folder, contains python files that you can use to attack the a pretrained model using the FENCE framework.
-To run the attack against pretrained model using FENCE, you need to run the file located at: attack.ipynb.
-The file Evalution of Adeversarial training.ipynb contains the code, in order to evaluate the model trained with adversarial training.
+The attack folder contains Python files designed for launching attacks on a pre-trained model using the FENCE framework. To execute the attack against a pre-trained model with FENCE, run the attack.ipynb file. Additionally, the Evaluation of Adversarial Training.ipynb file includes code to evaluate a model trained with adversarial training.
 
-To run the attack against a pretrained model using FENCE, run the file located at: attack/attack.ipynb
+To run the attack against a pre-trained model using FENCE, execute the code in the attack/attack.ipynb notebook.
 
 ## data folder
-This folder contains some neccesary files as dataset to run the experiments.
+The data folder includes essential files, such as datasets, required to conduct the experiments.
 
 ## out folder
-We use this folder to output to store the models after the training
+The out folder is utilized to store models after training.
 
 ## training folder
-It contains essential files in order to perform: normal training or adversarial training
-to train a model (adversarial or normal) use the file train.ipynb.
+The training folder contains crucial files for both normal training and adversarial training. To train a model, whether it's adversarial or normal, use the train.ipynb file.
 
 
 ## Botnet folder
-It contains a the code to create a Botnet_detector model, to be used in the Attack results for raw data representation experiment of the paper.
+The botnet folder contains code to create a Botnet Detector model. This model is employed in the "Attack Results for Raw Data Representation" experiment discussed in the paper.
