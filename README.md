@@ -17,6 +17,17 @@ To run the attack against pretrained model using FENCE, you need to run the file
 The file Evalution of Adeversarial training.ipynb contains the code, in order to evaluate the model trained with adversarial training.
 
 To run the attack against a pretrained model using FENCE, run the file located at: attack/attack.ipynb
-# Example installation commands
-npm install
-npm start
+
+## data folder
+This folder contains some neccesary files as dataset to run the experiments.
+
+## out folder
+We use this folder to output to store the models after the training
+
+## training folder
+It contains essential files in order to perform: normal training or adversarial training
+to train a model (adversarial or normal) use the file train.ipynb.
+
+
+## Botnet folder
+It contains a the code to create a Botnet_detector model, to be used in the Attack results for raw data representation experiment of the paper.
