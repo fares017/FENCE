@@ -12,7 +12,7 @@ The attack folder contains Python files designed for launching attacks on a pre-
 
 ## data folder
 The data folder includes essential files, such as datasets, required to conduct the experiments.
-You can find all the datset used in that projetc via this link:
+You can find all the dataset used in that projetc via this link:
 https://drive.google.com/drive/folders/1GLraCzPju4MYps7P_PVWkYgUMawUv8iq?usp=sharing
 
 ## out folder
