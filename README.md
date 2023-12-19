@@ -7,7 +7,7 @@ This project serves as a reproduction of the paper titled "Feasible Evasion Atta
 
 
 ## Attack folder
-The attack folder contains Python files designed for launching attacks on a pre-trained model using the FENCE framework in the "Attack algorithm on engineered features" experiment. To execute the attack against a pre-trained model with FENCE, run the attack.ipynb file. Additionally, the Evaluation of Adversarial Training.ipynb file includes code to evaluate a model trained with adversarial training.
+The attack folder contains Python files designed for launching attacks on a pre-trained model using the FENCE framework in the "Attack algorithm on engineered features" experiment. To execute the attack against a pre-trained model with FENCE, run the **attack.ipynb** file. Additionally, the **Evaluation_adversarial_training.ipynb** file includes code to evaluate a model trained with adversarial training.
 
 
 ## data folder
@@ -19,7 +19,7 @@ https://drive.google.com/drive/folders/1GLraCzPju4MYps7P_PVWkYgUMawUv8iq?usp=sha
 The out folder is utilized to store models after training.
 
 ## training folder
-The training folder contains crucial files for both normal training and adversarial training. To train a model, whether it's adversarial or normal, use the train.ipynb file.
+The training folder contains crucial files for both normal training and adversarial training. To train a model, whether it's adversarial or normal, use the **train.ipynb** file.
 
 
 ## Botnet folder
